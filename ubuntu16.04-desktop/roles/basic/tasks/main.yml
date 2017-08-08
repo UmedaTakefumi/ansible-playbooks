@@ -1,0 +1,20 @@
+- hosts: all
+  become: yes
+  tasks:
+  - name: install basic deb-package set
+    apt: pkg={{ item }} update_cache=yes state=present
+    with_items:
+      - git
+      - curl
+      - tree
+      - build-essential
+      - gnome-do
+      - xfce4-terminal
+      - vim-gnome
+      - fcitx-mozc
+      - gedit
+      - aptitude
+      - exuberant-ctags
+      - awscli
+      - clamav
+
