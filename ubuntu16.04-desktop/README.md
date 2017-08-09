@@ -24,3 +24,8 @@ ansible-playbook -i hosts, -c local roles/virutalbox/tasks/main.yml
 ansible-playbook -i hosts, -c local roles/linuxbrew/tasks/main.yml --extra-vars "user=ユーザー名"
 ```
 
+## osquery
+
+```
+ansible-playbook -i hosts, -c local roles/osquery/tasks/main.yml
+```
