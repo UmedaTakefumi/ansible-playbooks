@@ -29,3 +29,9 @@ ansible-playbook -i hosts, -c local roles/linuxbrew/tasks/main.yml --extra-vars 
 ```
 ansible-playbook -i hosts, -c local roles/osquery/tasks/main.yml
 ```
+
+## docker-ce
+
+```
+ansible-playbook -i hosts, -c local roles/docker-ce/tasks/main.yml
+```
