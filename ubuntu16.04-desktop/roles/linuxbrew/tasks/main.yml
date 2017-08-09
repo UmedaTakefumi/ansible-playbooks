@@ -1,0 +1,8 @@
+- hosts: all
+  become: yes
+  tasks:
+  - name: install linuxbrew
+    apt: name=linuxbrew-wrapper
+
+  - name: add bashrc / linuxbrew
+    lineinfile: dest=~/.bashrc line="$HOME/.linuxbrew/bin:$PATH"
