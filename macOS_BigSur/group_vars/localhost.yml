@@ -1,3 +1,4 @@
+homebrew_taps:
 homebrew_package:
   - name: ansible
   - name: bazel
