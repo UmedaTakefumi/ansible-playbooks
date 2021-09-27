@@ -1,3 +1,29 @@
+homebrew_package:
+  - name: ansible
+  - name: bazel
+  - name: clamav
+  - name: cmake
+  - name: cocoapods
+  - name: ghq
+  - name: gnupg
+  - name: gnuplot
+  - name: go
+  - name: gradle
+  - name: httpie
+  - name: jmeter
+  - name: jq
+  - name: nkf
+  - name: packer
+  - name: peco
+  - name: pyenv
+  - name: sbt
+  - name: screen
+  - name: squid
+  - name: tig
+  - name: tree
+  - name: radare2
+  - name: wget
+  - name: zsh-completions
 homebrew_cask_packages:
   - name: adoptopenjdk
   - name: android-file-transfer
