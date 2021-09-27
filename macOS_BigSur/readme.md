@@ -1,4 +1,4 @@
 
 ```
-ansible-playbook -i inventory/localhost localhost.yml
+ansible-playbook -i inventory/localhost setup.yml
 ```
