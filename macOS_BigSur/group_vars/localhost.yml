@@ -1,4 +1,5 @@
 homebrew_taps:
+  - name: sevki/homebrew-gcc_cross_compilers
 homebrew_package:
   - name: ansible
   - name: bazel
